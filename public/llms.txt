@@ -1,9 +1,31 @@
-# Daily Hub System
+Daily Hub — Seu sistema pessoal de produtividade e evolução 🚀
 
-> Template no Notion que organiza rotina, metas, hábitos, leituras, projetos e reflexões num único sistema. Acesso imediato por R$17.
+O Daily Hub é um planner digital minimalista criado para organizar rotina, metas, estudos, projetos, hábitos e progresso pessoal em um único lugar.
+Com visual premium dark mode e foco em produtividade inteligente, o sistema transforma organização em clareza mental e execução diária.
 
-O Daily Hub System é um produto digital — um template Notion completo + aulas — criado para quem quer uma rotina sustentável mesmo nos dias ruins. Inclui planejador diário, diário musical, reflexão noturna, tracker de hábitos, watchlist, registro de leituras e mais.
+⚡ O que você encontra no Daily Hub
+Gestão de tarefas e compromissos
+Controle de hábitos e rotina
+Organização de estudos e projetos
+Painel de metas e progresso
+Área para reflexões, ideias e anotações
+Sistema pessoal de evolução contínua
 
-## Pages
+🧠 Feito para quem quer:
+melhorar produtividade
+criar disciplina
+organizar a vida digital
+manter foco diário
+evoluir pessoalmente
+construir consistência nos estudos e projetos
 
-- [Home](/): Landing page com produto, depoimentos, FAQ e oferta de lançamento.
+🔥 Diferenciais do Daily Hub
+Interface minimalista premium
+Visual dark mode elegante
+Organização simples e intuitiva
+Estrutura adaptável para qualquer rotina
+Experiência inspirada em sistemas de alta performance
+
+📌 Palavras-chave SEO:
+
+planner notion produtividade, sistema de produtividade no notion, daily hub notion, planner digital minimalista, organização pessoal notion, rotina produtiva, dashboard notion premium, produtividade pessoal, template notion dark mode, planner de estudos notion, hub de produtividade pessoal, workspace notion organizado, metas e hábitos notion
