@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Daily Hub - Hub de organização pessoal" },
+      { name: "description", content: "O Daily Hub é um sistema digital minimalista criado para organizar rotina, metas, estudos, projetos, hábitos e progresso pessoal em um único lugar." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Daily Hub - Hub de organização pessoal" },
+      { property: "og:description", content: "O Daily Hub é um sistema digital minimalista criado para organizar rotina, metas, estudos, projetos, hábitos e progresso pessoal em um único lugar." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Daily Hub - Hub de organização pessoal" },
+      { name: "twitter:description", content: "O Daily Hub é um sistema digital minimalista criado para organizar rotina, metas, estudos, projetos, hábitos e progresso pessoal em um único lugar." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1778978995987-Daily_Hub.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1778978995987-Daily_Hub.webp" },
     ],
     links: [
       {
