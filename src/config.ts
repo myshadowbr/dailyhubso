@@ -232,8 +232,8 @@ export const FOOTER = {
 // IMAGENS
 // ================================================
 export const IMAGES = {
-  heroMockup: "/images/hero-mockup.png",
-  productCard1: "/images/product-diario.png",
-  productCard2: "/images/product-tracker.png",
-  productCard3: "/images/product-planner.png",
+  heroMockup: "public/images/hero-mockup.png",
+  productCard1: "public/images/product-diario.png",
+  productCard2: "public/images/product-tracker.png",
+  productCard3: "public/images/product-planner.png",
 };
