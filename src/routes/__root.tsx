@@ -82,8 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Daily Hub - Hub de organização pessoal" },
       { name: "twitter:description", content: "O Daily Hub é um sistema digital minimalista criado para organizar rotina, metas, estudos, projetos, hábitos e progresso pessoal em um único lugar." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1778978995987-Daily_Hub.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1778978995987-Daily_Hub.webp" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1779054516644-kiwify-compartilhamento.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Q87sQVW5GRS4MQ8lojcQaF3067x1/social-images/social-1779054516644-kiwify-compartilhamento.webp" },
     ],
     links: [
       {
