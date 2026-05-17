@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode, type ElementType } from "react";
 
 interface FadeInProps {
   children: ReactNode;
   delay?: number;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
 }
 
 export function FadeIn({ children, delay = 0, className = "", as: Tag = "div" }: FadeInProps) {
@@ -29,10 +29,10 @@ export function FadeIn({ children, delay = 0, className = "", as: Tag = "div" }:
     return () => obs.disconnect();
   }, []);
 
-  const Component = Tag as any;
+  const Component = Tag as ElementType;
   return (
     <Component
-      ref={ref as any}
+      ref={ref as unknown as React.Ref<HTMLElement>}
       className={`fade-in ${visible ? "is-visible" : ""} ${className}`}
       style={{ animationDelay: `${delay}s` }}
     >

@@ -1,6 +1,6 @@
 import { CTA_MID } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
-import { Button } from "@/components/ui/Button";
+import { AppButton } from "@/components/ui/AppButton";
 
 export function CtaMidSection() {
   return (
@@ -21,7 +21,7 @@ export function CtaMidSection() {
         </FadeIn>
         <FadeIn delay={0.2}>
           <div className="mt-10 flex flex-col items-center gap-3">
-            <Button variant="primary">{CTA_MID.cta}</Button>
+            <AppButton variant="primary">{CTA_MID.cta}</AppButton>
             <span className="text-[12px] text-[var(--text-tertiary)]">{CTA_MID.ctaSub}</span>
           </div>
         </FadeIn>

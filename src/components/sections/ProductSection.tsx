@@ -2,7 +2,7 @@ import * as Icons from "lucide-react";
 import { PRODUCT, IMAGES } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
-import { Button } from "@/components/ui/Button";
+import { AppButton } from "@/components/ui/AppButton";
 
 export function ProductSection() {
   return (
@@ -65,7 +65,7 @@ export function ProductSection() {
               {PRODUCT.closing}
             </p>
             <div className="mt-4">
-              <Button variant="ghost">{PRODUCT.cta}</Button>
+              <AppButton variant="ghost">{PRODUCT.cta}</AppButton>
             </div>
           </FadeIn>
         </div>

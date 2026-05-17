@@ -1,6 +1,6 @@
 import { REVIEWS } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
-import { Card } from "@/components/ui/Card";
+import { AppCard } from "@/components/ui/AppCard";
 
 export function ReviewsSection() {
   return (
@@ -8,7 +8,7 @@ export function ReviewsSection() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
         {REVIEWS.map((r, i) => (
           <FadeIn key={r.name} delay={i * 0.1}>
-            <Card className="h-full relative">
+            <AppCard className="h-full relative">
               <div
                 className="absolute top-2 left-4 font-serif select-none pointer-events-none"
                 style={{ color: "var(--accent-muted)", fontSize: "72px", lineHeight: 1 }}
@@ -22,7 +22,7 @@ export function ReviewsSection() {
                 <div className="text-[15px] font-medium text-[var(--text-primary)]">{r.name}</div>
                 <div className="text-[13px] text-[var(--text-tertiary)]">{r.role}</div>
               </div>
-            </Card>
+            </AppCard>
           </FadeIn>
         ))}
       </div>

@@ -1,6 +1,6 @@
 import { HERO, IMAGES } from "@/config";
-import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
+import { AppBadge } from "@/components/ui/AppBadge";
+import { AppButton } from "@/components/ui/AppButton";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { ImagePlaceholder } from "@/components/ImagePlaceholder";
 
@@ -9,7 +9,7 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center px-6 py-24 bg-[var(--bg)]">
       <div className="max-w-5xl w-full mx-auto text-center flex flex-col items-center">
         <FadeIn>
-          <Badge>{HERO.badge}</Badge>
+          <AppBadge>{HERO.badge}</AppBadge>
         </FadeIn>
 
         <FadeIn delay={0.1}>
@@ -40,7 +40,7 @@ export function HeroSection() {
 
         <FadeIn delay={0.3}>
           <div className="mt-10 flex flex-col items-center gap-3">
-            <Button variant="primary">{HERO.cta}</Button>
+            <AppButton variant="primary">{HERO.cta}</AppButton>
             <span className="text-[12px] text-[var(--text-tertiary)]">{HERO.ctaSub}</span>
           </div>
         </FadeIn>

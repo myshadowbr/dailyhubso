@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { OFFER, PRICING, WHATS_INCLUDED } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
-import { Button } from "@/components/ui/Button";
+import { AppButton } from "@/components/ui/AppButton";
 
 export function OfferSection() {
   return (
@@ -50,9 +50,9 @@ export function OfferSection() {
 
         <FadeIn delay={0.2}>
           <div className="mt-14 flex flex-col items-center gap-3">
-            <Button variant="primary" className="!px-12 !py-5 text-[16px]">
+            <AppButton variant="primary" className="!px-12 !py-5 text-[16px]">
               {OFFER.cta}
-            </Button>
+            </AppButton>
             <span className="text-[12px] text-[var(--text-tertiary)] text-center">
               {OFFER.ctaSub}
             </span>

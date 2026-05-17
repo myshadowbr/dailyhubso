@@ -1,7 +1,7 @@
 import { Check, X } from "lucide-react";
 import { BEFORE_AFTER } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
-import { Card } from "@/components/ui/Card";
+import { AppCard } from "@/components/ui/AppCard";
 
 export function BeforeAfterSection() {
   return (
@@ -18,7 +18,7 @@ export function BeforeAfterSection() {
 
         <div className="mt-16 grid md:grid-cols-2 gap-6">
           <FadeIn>
-            <Card className="h-full">
+            <AppCard className="h-full">
               <div
                 className="font-mono text-[11px] uppercase tracking-wider"
                 style={{ color: "#EF444499" }}
@@ -33,11 +33,11 @@ export function BeforeAfterSection() {
                   </li>
                 ))}
               </ul>
-            </Card>
+            </AppCard>
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <Card variant="accent" className="h-full">
+            <AppCard variant="accent" className="h-full">
               <div
                 className="font-mono text-[11px] uppercase tracking-wider"
                 style={{ color: "var(--accent)" }}
@@ -52,7 +52,7 @@ export function BeforeAfterSection() {
                   </li>
                 ))}
               </ul>
-            </Card>
+            </AppCard>
           </FadeIn>
         </div>
       </div>

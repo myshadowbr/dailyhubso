@@ -1,7 +1,7 @@
 import * as Icons from "lucide-react";
 import { OBJECTIONS } from "@/config";
 import { FadeIn } from "@/components/ui/FadeIn";
-import { Card } from "@/components/ui/Card";
+import { AppCard } from "@/components/ui/AppCard";
 
 export function ObjectionsSection() {
   return (
@@ -24,7 +24,7 @@ export function ObjectionsSection() {
             }>;
             return (
               <FadeIn key={item.title} delay={i * 0.08}>
-                <Card className="h-full">
+                <AppCard className="h-full">
                   {Icon && <Icon size={24} color="var(--accent)" />}
                   <h3 className="mt-5 text-[17px] font-medium text-[var(--text-primary)]">
                     {item.title}
@@ -32,7 +32,7 @@ export function ObjectionsSection() {
                   <p className="mt-2 text-[14px] text-[var(--text-secondary)] leading-relaxed">
                     {item.description}
                   </p>
-                </Card>
+                </AppCard>
               </FadeIn>
             );
           })}
