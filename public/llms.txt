@@ -1,0 +1,9 @@
+# Daily Hub System
+
+> Template no Notion que organiza rotina, metas, hábitos, leituras, projetos e reflexões num único sistema. Acesso imediato por R$17.
+
+O Daily Hub System é um produto digital — um template Notion completo + aulas — criado para quem quer uma rotina sustentável mesmo nos dias ruins. Inclui planejador diário, diário musical, reflexão noturna, tracker de hábitos, watchlist, registro de leituras e mais.
+
+## Pages
+
+- [Home](/): Landing page com produto, depoimentos, FAQ e oferta de lançamento.
